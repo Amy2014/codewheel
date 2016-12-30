@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/mystyle.css" rel="stylesheet">
+    <title>CodeWheel</title>
+
+    <!-- Bootstrap -->
+
+  </head>
+  <body>
+    <div class="container-fluid" style="background-color:#000;height:277px;padding:0px;">
+      <div class="header">
+        <div class="log">
+            <a href="sign-in.html">登陆</a>
+            <a href="sign-up.html">注册</a>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid" style="background-color:#eee;height:600px;">
+      <div class="row" style="height:60px;background-color:#fff;padding-top: 8px;border-bottom: 2px solid #ccc">
+        <div class="col-md-1 col-md-offset-2" ><img src="img/python.jpg"/></div>
+        <div class="col-md-1 col-md-offset-1" ><img src="img/ruby.jpg"/></div>
+      </div>
+      <div class="row" style="margin-top:50px;">
+        <div class="col-md-6">
+        <form action="" class="">
+         <div class="row">
+            <div class="col-md-9 col-md-offset-2">
+               <select class="selectbutton">
+                  <option>python</option>
+                  <option>ruby</option>
+               </select>
+            </div>
+          </div>
+          <div class="row" style="margin-top:20px;">
+            <div class="col-md-9 col-md-offset-2">
+              
+                <textarea id="testcode" wrap="logical" class="area">
+                  
+                </textarea>
+            </div>
+          </div>
+          <div class="row" style="margin-top:20px;">
+            <div class="col-md-2 col-md-offset-9">
+              <button type="submit" class="btn btn-primary" style="background-color:#000;border:none;">Submit</button>
+            </div>
+          </div>
+          </form>
+        </div>
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-md-9 col-md-offset-1">
+              <p style="font-weight: bold;">运行结果</p>
+            </div>
+          </div>
+           <div class="row" style="margin-top:20px;">
+            <div class="col-md-9 col-md-offset-1">
+              <form action="" class="">
+                <textarea id="resultcode" wrap="logical" class="area">
+                  
+                </textarea>
+              </form>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>
